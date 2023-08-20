@@ -144,12 +144,12 @@
       "image": "img-parlante-sony.jpg"
    },
    {
-      "id": 17,
-      "name": "Zapatilla Rebook",
-      "price": 80000,
-      "discount": 20,
+      "id": 18,
+      "name": "Netbook ASUS",
+      "price": 120000,
+      "discount": 10,
       "category": "in-sale",
-      "description": "buenas",
+      "description": "netbook tipo gaming de la reconocida marca ASUS",
       "image": null
    }
 ]
