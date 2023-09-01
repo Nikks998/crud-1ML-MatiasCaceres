@@ -95,10 +95,10 @@ const controller = {
 					unlinkSync(`./public/images/products/${product.image}`);
 			}
 
-			return product.id !== +req.params.id;
+			return product.id !== +req.params.id; //al no cumplir con la condicional anterior retorna todos los productos que excepto el que tenga el ID que viene definida en la ruta
 		});
 
-		writeJSON(productsModify, "productsDataBase.json");
+		writeJSON(productsModify, "productsDataBase.json");// sobreescribe el json con los productos filtrados expecto el que vino por req.params.id (URL)
 
 		return res.redirect("/products");
 	}
