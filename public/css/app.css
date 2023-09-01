@@ -362,6 +362,22 @@ hr {
   margin-bottom: 15px;
 }
 
+.buy-now-button2 {
+  background-color: var(--gray);
+  font-size: 1.6em;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+
 .action-button {
   border: none;
   border-radius: 8px;

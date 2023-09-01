@@ -40,8 +40,14 @@
 						<label for="description" class="form-label">Descipción:</label>
 						<textarea name="description" id="description" class="form-input"></textarea>
 					</div>
-					<div class="col-12">
-						<button type="submit" class="buy-now-button">Guardar producto</button>
+					<div class="col-12 d-flex justify-content-center gap-3">
+						<div>
+							<button type="submit" class="buy-now-button col-12">Guardar producto</button>
+						</div>
+						<div>
+							<label for="formFile" class="form-label buy-now-button2 col-12 my-auto">Subir Imagen  <i class="fa-solid fa-image"></i></label>
+							<input class="form-control" type="file" id="formFile" name="image" hidden>
+						</div>
 					</div>
 				</div>
 			</form>
